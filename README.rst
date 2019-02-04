@@ -1,2 +1,2 @@
-.. image:: ./pic.png
+.. image:: pic.png
 
