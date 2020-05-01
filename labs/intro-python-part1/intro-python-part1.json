@@ -1,0 +1,37 @@
+{
+  "labId": "intro-python-part1",
+  "title": "Intro to Python - Part 1",
+  "slug": "Basic data types, variables, conditionals and functions - we’ll teach you the building blocks on which all great apps are built.",
+  "time": 45,
+  "byod": true,
+  "files": [
+    {"title": "Introduction",
+      "file": "0-intro.md"},
+    {"title": "Step 1: Know thy Interpreter",
+     "file": "1-know-thy-interpreter.md"},
+    {"title": "Step 2: Basic Python Syntax",
+     "file": "2-basic-python-syntax.md"},
+    {"title": "Step 3: Input, Output, and Conditionals",
+    "file": "3-input-output-conditionals.md"},
+    {"title": "Step 4: Functions",
+    "file": "4-functions.md"},
+    {"title": "Step 5: Hands-On Exercise",
+    "file": "5-hands-on-exercise.md"}
+  ],
+  "tags": [
+	{"title": "Python",
+   "title": "Coding"}
+  ],
+  "related": [
+    {
+        "labId": "intro-python-part2",
+        "title": "Intro to Python - Part 2"
+    }, {
+        "labId": "parsing-json-python",
+        "title": "Parsing JSON with Python"
+    }],
+  "authors": [
+      {"name": "Chris Lunsford", "email": "chrlunsf@cisco.com"}
+  ],
+  "active": true
+}

@@ -1,0 +1,39 @@
+{
+  "labId": "intro-python-part2",
+  "title": "Intro to Python - Part 2",
+  "slug": "Python is an awesome “batteries included” programming language.  Learn about a few of Python’s powerful built-in container data types and how to use loops to get your computer to do repetitious work for you.",
+  "time": 45,
+  "byod": true,
+  "files": [
+    {"title": "Introduction",
+      "file": "0-intro.md"},
+    {"title": "Step 1: Native Python data structures",
+     "file": "1-data-structures.md"},
+    {"title": "Step 2: Other Python collections",
+     "file": "2-other-collections.md"},
+    {"title": "Step 3: Python Loops",
+     "file": "3-loops.md"},
+    {"title": "Step 4: Python script structure and execution",
+     "file": "4-structure-and-execution.md"},
+    {"title": "Step 5: Debugging basics",
+     "file": "5-debugging-basics.md"},
+    {"title": "Step 6: Hands-on exercise",
+     "file": "6-hands-on-exercise.md"},
+    {"title": "Where to go to learn more",
+     "file": "7-learn-more.md"}
+    ],
+  "tags": [
+	{"title": "Python",
+   "title": "Coding"}
+  ],
+  "related": [
+      {
+          "labId": "parsing-json-python",
+          "title": "Parsing JSON with Python"
+      }
+  ],
+  "authors": [
+      {"name": "Chris Lunsford", "email": "chrlunsf@cisco.com"}
+  ],
+  "active": true
+}

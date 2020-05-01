@@ -1,0 +1,56 @@
+site_name: Programming Fundamentals
+# Theme, color palette, and upper left-hand icon
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue grey'
+    accent: 'blue grey'
+  logo:
+    icon: 'class'
+# Extensions enable notes, code syntax highlighting
+markdown_extensions:
+  - admonition
+  - codehilite
+# This setting ensures the flat HTML files can run locally without a web server
+use_directory_urls: false
+# Copyright
+copyright: 'Copyright &copy; 2019 Cisco Systems, Inc.'
+# Folder name for all Labs
+docs_dir: labs
+# Left-hand navigation or table of contents. Use quotes for titles with colons in the title.
+nav:
+- Home: index.md
+- Intro to Coding and APIs:
+  - Introduction: intro-coding-and-apis/0-intro.md
+  - "Step 1: The value proposition": intro-coding-and-apis/1-the-value-prop.md
+  - "Step 2: What Changed?": intro-coding-and-apis/2-what-changed.md
+  - "Step 3: Your future job role": intro-coding-and-apis/3-your-future-job-role.md
+  - "Step 4: Why Python?": intro-coding-and-apis/4-why-python.md
+- A Brief Introduction to Git:
+  - Introduction: git-basic-workflows/0-intro.md
+  - "Step 1: Intro to Version Control Systems": git-basic-workflows/1-intro-to-vcs.md
+  - "Step 2: Basic Git workflows": git-basic-workflows/2-basic-git-workflows.md
+  - "Step 3: The DevNet sample code workflow": git-basic-workflows/3-sample-code-workflow.md
+  - Where to go to learn more: git-basic-workflows/4-learn-more.md
+- Intro to Python - Part 1:
+  - Introduction: intro-python-part1/0-intro.md
+  - "Step 1: Know thy Interpreter": intro-python-part1/1-know-thy-interpreter.md
+  - "Step 2: Basic Python Syntax": intro-python-part1/2-basic-python-syntax.md
+  - "Step 3: Input, Output, and Conditionals": intro-python-part1/3-input-output-conditionals.md
+  - "Step 4: Functions": intro-python-part1/4-functions.md
+  - "Step 5: Hands-On Exercise": intro-python-part1/5-hands-on-exercise.md
+- Intro to Python - Part 2:
+  - Introduction: intro-python-part2/0-intro.md
+  - "Step 1: Native Python data structures": intro-python-part2/1-data-structures.md
+  - "Step 2: Other Python collections": intro-python-part2/2-other-collections.md
+  - "Step 3: Python Loops": intro-python-part2/3-loops.md
+  - "Step 4: Python script structure and execution": intro-python-part2/4-structure-and-execution.md
+  - "Step 5: Debugging basics": intro-python-part2/5-debugging-basics.md
+  - "Step 6: Hands-on exercise": intro-python-part2/6-hands-on-exercise.md
+  - Where to go to learn more: intro-python-part2/7-learn-more.md
+- Parsing JSON with Python:
+  - Introduction: parsing-json-python/0-intro.md
+  - "Step 1: Reading and Writing Files": parsing-json-python/1-reading-and-writing-files.md
+  - "Step 2: Parsing JSON": parsing-json-python/2-parsing-json.md
+  - "Step 3: Working with Nested Data": parsing-json-python/3-nested-data.md
+  - Where to Go to Learn More: parsing-json-python/4-learn-more.md

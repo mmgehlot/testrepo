@@ -1,0 +1,37 @@
+{
+  "labId": "intro-coding-and-apis",
+  "title": "Intro to Coding and APIs",
+  "slug": "I design and manage networks of all sizes.  I use IEEE 802.1w, IPv4, IPv6, OSPF, and BGP to build communications networks that would make Bob Kahn and Vint Cerf proud.  Why should I learn to code?",
+  "time": 15,
+  "byod": true,
+  "files": [
+    {"title": "Introduction",
+      "file": "0-intro.md"},
+    {"title": "Step 1: The value proposition",
+     "file": "1-the-value-prop.md"},
+    {"title": "Step 2: What Changed?",
+     "file": "2-what-changed.md"},
+    {"title": "Step 3: Your future job role",
+     "file": "3-your-future-job-role.md"},
+    {"title": "Step 4: Why Python?",
+     "file": "4-why-python.md"}
+  ],
+  "tags": [
+	{"title": "Coding",
+   "title": "REST"}
+  ],
+  "related": [{
+        "labId": "intro-python-part1",
+        "title": "Intro to Python - Part 1"
+    },{
+      "labId": "intro-python-part2",
+        "title": "Intro to Python - Part 2"
+    },{
+        "labId": "parsing-json-python",
+        "title": "Parsing JSON with Python"
+    } ],
+  "authors": [
+      {"name": "Chris Lunsford", "email": "chrlunsf@cisco.com"}
+  ],
+  "active": true
+}

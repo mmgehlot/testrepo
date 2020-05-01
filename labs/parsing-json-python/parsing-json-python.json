@@ -1,0 +1,28 @@
+{
+  "labId": "parsing-json-python",
+  "title": "Parsing JSON with Python",
+  "slug": "Use this Learning Lab to practice parsing JSON with Python libraries.",
+  "time": 15,
+  "byod": true,
+  "files": [
+    {"title": "Introduction",
+     "file": "0-intro.md"},
+    {"title": "Step 1: Reading and Writing Files",
+     "file": "1-reading-and-writing-files.md"},
+    {"title": "Step 2: Parsing JSON",
+    "file": "2-parsing-json.md"},
+    {"title": "Step 3: Working with Nested Data",
+    "file": "3-nested-data.md"},
+    {"title": "Where to Go to Learn More",
+    "file": "4-learn-more.md"}
+  ],
+  "tags": [
+	{"title": "Python",
+   "title": "Coding",
+   "title": "Parsing"}
+  ],
+  "authors": [
+      {"name": "Chris Lunsford", "email": "chrlunsf@cisco.com"}
+  ],
+  "active": true
+}

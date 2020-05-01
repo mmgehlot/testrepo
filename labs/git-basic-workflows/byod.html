@@ -1,0 +1,78 @@
+<h1 id="settingupadevelopmentworkstationforthislab">Setting up a development workstation for this Lab</h1>
+
+<p>Before beginning this lab on your workstation, you'll want to install a standard set of development applications, tools, and interfaces.  To learn more about what tools and what they offer, you can explore the <a href="https://developer.cisco.com/learning/modules/dev-setup/dev-what/step/1">What is a Development Environment, and why do you need one?</a> Learning Lab. </p>
+
+<p>To assist you with getting setup, DevNet has created Learning Labs that walk through the installation on different platforms.  </p>
+
+<ul>
+    <li><a href="https://developer.cisco.com/learning/modules/dev-setup/dev-win/step/1">Setting up your Windows workstation as a development environment</a></li>
+
+    <li><a href="https://developer.cisco.com/learning/modules/dev-setup/dev-mac/step/1">Setting up your MacOS workstation as a development environment</a></li>
+
+    <li><a href="https://developer.cisco.com/learning/modules/dev-setup/dev-centos/step/1">Setting up your Linux (CentOS) workstation as a development environment</a></li>
+</ul>
+
+<h1 id="usinggitthecopycodeandsettingupthelocalenvironment">Using Git to Copy Code and Setting Up the Local Environment</h1>
+
+<p>Now that your workstation is ready to go, the next step is to retrieve the code and install the lab specific requirements.</p>
+<p><b>**Note: You only need to do this setup process once.  If you have previously cloned the repository and created your virtual environment, you do not need to do it again for this lab.**</b></p>
+
+<ol>
+  <li>
+    <p>The code for this lab is available on GitHub in the appropriate repository for your event:
+      <ul>
+        <li>DNA: <a href="https://github.com/CiscoDevNet/dnav3-code">https://github.com/CiscoDevNet/dnav3-code</a></li>
+        <li>Security: <a href="https://github.com/CiscoDevNet/dne-security-code">https://github.com/CiscoDevNet/dne-security-code</a></li>
+        <li>Data Center Infrastructure: <a href="https://github.com/CiscoDevNet/dciv2-code">https://github.com/CiscoDevNet/dciv2-code</a></li>
+        <li>Meraki: <a href="https://github.com/CiscoDevNet/meraki-code">https://github.com/CiscoDevNet/meraki-code</a></li>
+      </ul>
+    </p>
+  </li>
+
+    <li><p>Open a bash terminal and change to the directory where you would like to clone the repository.  For example, a directory called <code>code/</code> under your <code>$HOME</code> directory.</p>
+
+        <pre>
+            <code class="bash language-bash">
+cd ~/code
+            </code>
+        </pre>
+    </li>
+
+    <li><p>Clone the repository and change into the new folder. This example is for <code>dnav3-code</code>, but you can also substitute <code>dne-security-code</code> or <code>dciv2-code</code> or <code>meraki-code</code> as needed.</p>
+
+        <pre>
+            <code class="bash language-bash">
+git clone https://github.com/CiscoDevNet/dnav3-code
+cd dnav3-code
+            </code>
+        </pre>
+    </li>
+
+    <li><p>Create a Python 3 virtual environment and activate it.</p>
+
+        <pre>
+            <code class="bash language-bash">
+# MacOS or Linux
+python3 -m venv venv
+source venv/bin/activate
+            </code>
+        </pre>
+
+        <pre>
+            <code class="bash language-bash">
+# Windows git-bash
+py -3 -m venv venv
+source venv/Scripts/activate
+            </code>
+          </pre>
+          <pre>
+              <code class="bash language-bash">
+  # Windows PowerShell (Note: not used at DevNet Express.)
+  py -3 -m venv venv
+  .venv\Scripts\activate
+              </code>
+          </pre>
+    </li>
+</ol>
+
+<p>Alright, you should be all set and ready to start the lab!</p>

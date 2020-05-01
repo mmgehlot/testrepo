@@ -1,0 +1,41 @@
+{
+  "labId": "git-basic-workflows",
+  "title": "A Brief Introduction to Git",
+  "slug": "Clone, branch, commit...  We aren’t talking about your family tree.  Learn how to use git to download, edit and revise source code!",
+  "time": 15,
+  "byod": true,
+  "files": [
+    {"title": "Introduction",
+      "file": "0-intro.md"},
+    {"title": "Step 1: Intro to Version Control Systems",
+     "file": "1-intro-to-vcs.md"},
+    {"title": "Step 2: Basic Git workflows",
+     "file": "2-basic-git-workflows.md"},
+    {"title": "Step 3: The DevNet sample code workflow",
+     "file": "3-sample-code-workflow.md"},
+    {"title": "Where to go to learn more",
+     "file": "4-learn-more.md"}
+  ],
+  "tags": [
+	{"title": "Git",
+   "title": "GitHub",
+   "title": "version control"}
+  ],
+  "related": [{
+        "labId": "intro-coding-and-apis",
+        "title": "Intro to Coding and APIs"
+    },{
+        "labId": "intro-python-part1",
+        "title": "Intro to Python - Part 1"
+    },{
+        "labId": "intro-python-part2",
+        "title": "Intro to Python - Part 2"
+    }, {
+        "labId": "parsing-json-python",
+        "title": "Parsing JSON with Python"
+    } ],
+  "authors": [
+      {"name": "Chris Lunsford", "email": "chrlunsf@cisco.com"}
+  ],
+  "active": true
+}
