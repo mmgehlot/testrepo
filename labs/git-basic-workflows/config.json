@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "title": "Introduction",
+      "content": "0-intro.md"
+    },
+    {
+      "title": "Intro to Version Control Systems",
+      "content": "1-intro-to-vcs.md"
+    },
+    {
+      "title": "Basic Git workflows",
+      "content": "2-basic-git-workflows.md"
+    },
+    {
+      "title": "The DevNet sample code workflow",
+      "content": "3-sample-code-workflow.md"
+    },
+    {
+      "title": "Where to go to learn more",
+      "content": "4-learn-more.md"
+    }
+  ],
+  "config": {
+    "devEnv": {
+      "id": "devenv-dna",
+      "defaultcontent": "src/Getting-started-with-Cisco-SD-WAN-REST-APIs/sdwan.py"
+    },
+    "video": {
+      "type": "youtube",
+      "link": "https://.as.sa.s.s"
+    },
+    "sandbox": {}
+  },
+  "meta": {
+    "slug": "Clone, branch, commit...  We aren\u2019t talking about your family tree.  Learn how to use git to download, edit and revise source code!",
+    "time": "15",
+    "byod": true,
+    "tags": [
+      {
+        "title": "version control"
+      }
+    ],
+    "poweredBy": "<a href='https://developer.cisco.com/site/devnet/sandbox/' target=_blank>DevNet Sandbox</a>",
+    "authors": [
+      {
+        "name": "Chris Lunsford",
+        "email": "chrlunsf@cisco.com"
+      }
+    ]
+  }
+}
